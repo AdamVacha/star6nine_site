@@ -28,7 +28,7 @@ import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
 	<!-- LOGO -->
 <section class="flex justify-center m-10">
 	<div>
-		<enhanced:img src="/home/catty/workspace/star6nine_site/star6nine_site_skeleton/src/lib/assets/star6ninelogo.png" alt="s69 logo" />
+		<enhanced:img src="/src/lib/assets/star6ninelogo.png" alt="s69 logo" />
 	</div>
 	
 </section>
@@ -51,7 +51,7 @@ import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
 	<!-- WRITEUPS -->
 <!-- <section class="flex justify-center m-10">
 	<div>
-		<enhanced:img src="/home/catty/workspace/star6nine_site/star6nine_site_skeleton/src/lib/assets/press_1s69.png" alt="s69 logo" />
+		<enhanced:img src="/src/lib/assets/press_1s69.png" alt="s69 logo" />
 	</div>
 	
 </section> -->
