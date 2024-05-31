@@ -1,10 +1,10 @@
 <script lang="ts">import { Instagram, YoutubeIcon, TreesIcon } from 'lucide-svelte';
-import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
+import { IconBrandSpotify, IconCloud } from '@tabler/icons-svelte';</script>
 
 
 	<!-- ICONS -->
 
-<div class="flex justify-center m-6 gap-4">
+<div class="flex justify-center m-8 gap-4">
 	<a class="btn-icon variant-filled" href="https://www.instagram.com/star6.nine/">
 		<span><Instagram size={36}/></span>
 		
@@ -21,6 +21,10 @@ import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
 		<span><TreesIcon size={38}/></span>
 
 	</a>
+	<a class="btn-icon variant-filled" href="https://soundcloud.com/starsixty_nine">
+		<span><IconCloud size={38}/></span>
+
+	</a>
 	
 </div>
 
@@ -33,7 +37,9 @@ import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
 	
 </section>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4PHiEApmqAZgGyCvaJopFb?utm_source=generator&theme=0" title="Spotify" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+	<!-- SPOTIFY -->
+<iframe class="flex justify-center" src="https://open.spotify.com/embed/artist/4PHiEApmqAZgGyCvaJopFb?utm_source=generator&theme=0" title="Spotify" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>
 
 
 
