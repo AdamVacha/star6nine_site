@@ -33,6 +33,8 @@ import { IconBrandSpotify } from '@tabler/icons-svelte';</script>
 	
 </section>
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4PHiEApmqAZgGyCvaJopFb?utm_source=generator&theme=0" title="Spotify" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
 
 	<!-- NOTABLE PERFORMANCES -->
