@@ -2,20 +2,20 @@
 	import SocialIcons from '$lib/components/SocialIcons.svelte';
 </script>
 
-<!-- SOCIAL ICONS -->
-<section class="flex justify-center mt-12 mb-10 lg:mb-0">
-	<SocialIcons />
-</section>
-
 <!-- LOGO -->
-<section class="flex justify-center m-6 mb-10 sm:mb-0 -mt-5 sm:-mt-0">
+<section class="flex justify-center mx-6 mt-10">
 	<div class="max-w-2xl">
 		<img src="/lib/assets/star6ninelogo.png" alt="s69 logo" class="w-full" />
 	</div>
 </section>
 
+<!-- SOCIAL ICONS -->
+<section class="flex justify-center mt-0 mb-8">
+	<SocialIcons />
+</section>
+
 <!-- SPOTIFY -->
-<section class="flex justify-center items-center mb-4">
+<section class="flex justify-center items-center">
 	<div class="w-full max-w-4xl px-4">
 		<iframe
 			class="w-full rounded-2xl"

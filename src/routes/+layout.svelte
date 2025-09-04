@@ -159,17 +159,17 @@
 		{@render children()}
 	</main>
 
-	<!-- Footer -->
-	<footer class="bg-surface-800/80 border-surface-700/50 border-t py-2">
-		<div class="container mx-auto px-4">
-			<div class="flex justify-center md:justify-start">
-				<div class="mb-4">
-					<img src="/lib/assets/CMYK-PNG.png" alt="Star6nine Footer Logo" class="h-8" />
-				</div>
-			</div>
-			<div class="text-surface-300 mt-1 text-center text-sm">
-				© {new Date().getFullYear()} Star6nine. All rights reserved.
+<!-- Footer -->
+<footer class="bg-surface-800/80 border-surface-700/50 border-t py-2">
+	<div class="container mx-auto px-4">
+		<div class="flex justify-center items-center md:justify-start">
+			<div class="mt-4 flex items-center">
+				<img src="/lib/assets/CMYK-PNG.png" alt="Star6nine Footer Logo" class="h-8" />
 			</div>
 		</div>
-	</footer>
+		<div class="text-surface-300 mt-1 text-center text-sm">
+			© {new Date().getFullYear()} Star6nine. All rights reserved.
+		</div>
+	</div>
+</footer>
 </div>
