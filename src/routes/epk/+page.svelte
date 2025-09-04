@@ -2,6 +2,7 @@
 	import { Users, Music, FileText, Calendar, MapPin, Camera } from 'lucide-svelte';
 	import { IconBrandSpotify, IconCloud } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
+	import SocialIcons from '$lib/components/SocialIcons.svelte';
 
 	let galleryVisible = false;
 	let heroVisible = false;
@@ -42,9 +43,14 @@
 	<link rel="canonical" href="https://star6nine.space/epk" />
 </svelte:head>
 
+<!-- SOCIAL ICONS -->
+<section class="flex justify-center mt-10">
+	<SocialIcons />
+</section>
+
 <!-- HERO SECTION -->
 <section
-	class="h-auto sm:min-h-screen flex items-start sm:items-center justify-center overflow-hidden pt-20 sm:pt-0 mb-4 sm:mb-2"
+	class="h-auto sm:min-h-screen flex items-start sm:items-center justify-center overflow-hidden mb-4 sm:mb-2 -mt-15 sm:-mt-20"
 >
 	<div
 		class="relative z-10 text-center max-w-4xl mx-auto px-6 transform transition-all duration-1000"
