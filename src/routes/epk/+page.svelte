@@ -43,10 +43,7 @@
 	<link rel="canonical" href="https://star6nine.space/epk" />
 </svelte:head>
 
-<!-- SOCIAL ICONS -->
-<section class="flex justify-center mt-10">
-	<SocialIcons />
-</section>
+
 
 <!-- HERO SECTION -->
 <section
@@ -60,13 +57,18 @@
 		class:opacity-0={!heroVisible}
 	>
 		<!-- Logo -->
-		<div class="mb-2">
+		<div class="mb-0 md:mt-20">
 			<img
 				src="/lib/assets/star6ninelogo.png"
 				alt="Star6nine Logo"
 				class="w-full max-w-md mx-auto filter drop-shadow-2xl"
 			/>
 		</div>
+
+		<!-- SOCIAL ICONS -->
+<section class="flex justify-center mt-0 mb-4">
+	<SocialIcons />
+</section>
 
 		<!-- Video -->
 		<div class="mb-2">
