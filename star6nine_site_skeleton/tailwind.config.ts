@@ -2,7 +2,7 @@ import { join } from 'path';
 import type { Config } from 'tailwindcss';
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin';
-import { star6ninetheme } from './star6ninetheme';
+// import removed: custom theme now loaded via CSS
 
 export default {
 	darkMode: 'class',
@@ -13,12 +13,5 @@ export default {
 	theme: {
 		extend: {}
 	},
-	plugins: [
-		typography,
-		skeleton({
-			themes: {
-				custom: [star6ninetheme]
-			}
-		})
-	]
+	plugins: [typography, skeleton({})]
 } satisfies Config;

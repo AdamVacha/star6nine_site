@@ -1,4 +1,20 @@
+@import './star6ninetheme.css';
+@import './app.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+@layer base {
+	html,
+	body {
+		@apply bg-black text-white m-0 p-0 min-h-screen w-full;
+	}
+}
+
+@layer components {
+	.btn-icon {
+		@apply flex items-center justify-center p-2 rounded-full hover:opacity-80 transition-opacity bg-white/10;
+	}
+}

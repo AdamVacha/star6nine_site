@@ -4,5 +4,10 @@ import { defineConfig } from 'vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
 
 export default defineConfig({
-	plugins: [enhancedImages(), sveltekit(), purgeCss()]
+	plugins: [enhancedImages(), sveltekit(), purgeCss()],
+	server: {
+		fs: {
+			allow: ['static']
+		}
+	}
 });
