@@ -43,7 +43,9 @@
 </svelte:head>
 
 <!-- HERO SECTION -->
-<section class="h-auto sm:min-h-screen flex items-start sm:items-center justify-center overflow-hidden pt-20 sm:pt-0 mb-4 sm:mb-2">
+<section
+	class="h-auto sm:min-h-screen flex items-start sm:items-center justify-center overflow-hidden pt-20 sm:pt-0 mb-4 sm:mb-2"
+>
 	<div
 		class="relative z-10 text-center max-w-4xl mx-auto px-6 transform transition-all duration-1000"
 		class:translate-y-0={heroVisible}
@@ -345,7 +347,9 @@
 </section>
 
 <!-- CONTACT CTA -->
-<section class="py-8 sm:py-24 bg-gradient-to-r from-primary-900/20 via-surface-900 to-secondary-900/20">
+<section
+	class="py-8 sm:py-24 bg-gradient-to-r from-primary-900/20 via-surface-900 to-secondary-900/20"
+>
 	<div class="container mx-auto px-6 text-center">
 		<p class="text-xl text-surface-300 mb-8 max-w-2xl mx-auto">
 			For booking inquiries, press materials, or collaboration opportunities
