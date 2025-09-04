@@ -1,0 +1,25 @@
+name = "star6nine-site"
+compatibility_date = "2024-09-04"
+
+[env.production]
+name = "star6nine-site"
+
+[[env.production.routes]]
+pattern = "star6nine.space/*"
+zone_name = "star6nine.space"
+
+[[env.production.routes]]
+pattern = "www.star6nine.space/*"
+zone_name = "star6nine.space"
+
+[build]
+command = "bun run build"
+cwd = "."
+
+[vars]
+NODE_VERSION = "20"
+
+compatibility_flags = ["nodejs_compat"]
+
+[env.production.build]
+command = "bun install && bun run build"
