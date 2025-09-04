@@ -163,20 +163,20 @@
 							From the age of 12 learning classical guitar and piano at the Center for the Arts
 							program in St. Petersburg Florida, to the Pinellas County Center for the Arts Program
 							for High School and eventually Berklee College of Music for music production, it is
-							safe to say much training has been put into Star6nine's new iconic sound.
+							safe to say that much training has been put into Star6nine's iconic sound.
 						</p>
 					</div>
 					<div class="space-y-6">
 						<p>
-							2 years were spent hidden away in recording studios to bring forth the best possible
-							product and now is the time Star6nine hits the stage to show the world its new music.
+							It has been 4 years since the projects inception and we're just getting started. Every day is spent in the studio to bring forth the best possible
+							product and now is the turning point for Star6nine to show the world it's true potential.
 						</p>
 						<p>
 							With 100's of hours performing on stage across the country, Star6nine is no stranger
 							to live performance. Having run a recording studio on La Cienega Blvd in Hollywood CA
 							while DJ'ing raves on the weekends in Los Angeles, not only has the time been put into
 							the studio but the live sets as well. Unique and powerful double drops coupled with
-							driving and extremely deep bass lead to live DJ sets that truly move the crowd.
+							driving deep bass lead to a unqiue experienece at each every show.
 						</p>
 					</div>
 				</div>

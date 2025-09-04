@@ -16,7 +16,7 @@
 
 <!-- SPOTIFY -->
 <section class="flex justify-center items-center">
-	<div class="w-full max-w-4xl px-4">
+	<div class="w-full max-w-4xl px-4 md:mb-4 ">
 		<iframe
 			class="w-full rounded-2xl"
 			src="https://open.spotify.com/embed/artist/4PHiEApmqAZgGyCvaJopFb?utm_source=generator"
