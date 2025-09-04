@@ -57,7 +57,7 @@
 		class:opacity-0={!heroVisible}
 	>
 		<!-- Logo -->
-		<div class="mb-0 md:mt-20">
+		<div class="mb-0 md:mt-20 mt-4">
 			<img
 				src="/lib/assets/star6ninelogo.png"
 				alt="Star6nine Logo"
