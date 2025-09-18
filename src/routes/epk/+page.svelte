@@ -362,7 +362,7 @@
 		<p class="text-xl text-surface-300 mb-8 max-w-2xl mx-auto">
 			For booking inquiries, press materials, or collaboration opportunities
 		</p>
-		<p class="text-xl text-surface-300 mb-8 max-w-2xl mx-auto">info@star6nice.space</p>
+		<p class="text-xl text-surface-300 mb-8 max-w-2xl mx-auto">info@star6nine.space</p>
 		<a
 			href="mailto:info@star6nine.space"
 			class="inline-flex items-center gap-3 bg-gradient-to-r from-primary-500 to-secondary-500 hover:from-primary-400 hover:to-secondary-400 px-8 py-4 rounded-full text-black font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl bg-white"
